@@ -1,0 +1,18 @@
+		AREA mul,CODE,READONLY
+		ENTRY
+		EXPORT __main
+			
+NUM1 DCD 0X1111;
+NUM2 DCD 0X1111;
+__main
+		LDR R0,NUM1;
+		LDR R1,NUM2;            DONE!
+		MUL R3,R0,R1;
+	;	LDR R2,=Result;
+	;	STR R0,[R2];
+STOP B STOP
+		AREA MulRes,DATA,READWRITE
+Result DCD 0X00;
+		END
+			
+; DONT USE ANY SPACES LIKE MUL R1, R2; do it like this MUL R1,R2;
