@@ -1,6 +1,0 @@
-- First open keil vision app
-- Then click on project
-    - create new project
-        - create a file
-- Some file pops up
-    - type "LPC1768".. see further in video
