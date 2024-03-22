@@ -17,4 +17,4 @@ STOP B STOP
 Result DCD 0X00;
 		END
 			
-; DONT USE ANY SPACES LIKE MUL R1, R2; do it like this MUL R1,R2;
+; DONT USE ANY SPACES LIKE MUL R1, R2; do it like this MUL R1,R2; 
