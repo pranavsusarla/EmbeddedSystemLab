@@ -15,6 +15,6 @@ loop
 STOP B STOP
 		AREA MulRes,DATA,READWRITE
 Result DCD 0X00;
-		END
+		END 
 			
 ; DONT USE ANY SPACES LIKE MUL R1, R2; do it like this MUL R1,R2;
