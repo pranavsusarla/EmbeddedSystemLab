@@ -1,4 +1,5 @@
-	area ascending, code, readonly
+; you have to see the output in memory window it seems
+ 	area ascending, code, readonly
 	export __main
 __main
 	mov r8,#4;
